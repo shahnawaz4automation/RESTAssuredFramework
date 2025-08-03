@@ -12,7 +12,7 @@ public class HTTPRequests {
 	int id = 0;
 	@Test(priority = 1)
 	void getUsers() {
-		given()
+		        given()
 
 				.when()
 				     .get("https://reqres.in/api/users?page=2")
