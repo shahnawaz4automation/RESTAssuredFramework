@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-03T23:02:50 IST" name="Default suite" finished-at="2025-08-03T23:02:56 IST" duration-ms="6295">
+  <suite started-at="2025-08-03T23:37:31 IST" name="Default suite" finished-at="2025-08-03T23:37:35 IST" duration-ms="4759">
     <groups>
     </groups>
-    <test started-at="2025-08-03T23:02:50 IST" name="Default test" finished-at="2025-08-03T23:02:56 IST" duration-ms="6295">
+    <test started-at="2025-08-03T23:37:31 IST" name="Default test" finished-at="2025-08-03T23:37:35 IST" duration-ms="4759">
       <class name="day1.HTTPRequests">
-        <test-method signature="getUsers()[pri:1, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:02:50 IST" name="getUsers" finished-at="2025-08-03T23:02:55 IST" duration-ms="4530" status="PASS">
+        <test-method signature="getUsers()[pri:1, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:37:31 IST" name="getUsers" finished-at="2025-08-03T23:37:33 IST" duration-ms="2838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsers -->
-        <test-method signature="createUser()[pri:2, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:02:55 IST" name="createUser" finished-at="2025-08-03T23:02:55 IST" duration-ms="856" status="PASS">
+        <test-method signature="createUser()[pri:2, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:37:33 IST" name="createUser" finished-at="2025-08-03T23:37:34 IST" duration-ms="862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="updateUser()[pri:3, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:02:55 IST" name="updateUser" finished-at="2025-08-03T23:02:56 IST" depends-on-methods="day1.HTTPRequests.createUser" duration-ms="466" status="PASS">
+        <test-method signature="updateUser()[pri:3, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:37:34 IST" name="updateUser" finished-at="2025-08-03T23:37:35 IST" depends-on-methods="day1.HTTPRequests.createUser" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->
-        <test-method signature="deleteUser()[pri:4, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:02:56 IST" name="deleteUser" finished-at="2025-08-03T23:02:56 IST" depends-on-methods="day1.HTTPRequests.updateUser" duration-ms="294" status="PASS">
+        <test-method signature="deleteUser()[pri:4, instance:day1.HTTPRequests@799f10e1]" started-at="2025-08-03T23:37:35 IST" name="deleteUser" finished-at="2025-08-03T23:37:35 IST" depends-on-methods="day1.HTTPRequests.updateUser" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
