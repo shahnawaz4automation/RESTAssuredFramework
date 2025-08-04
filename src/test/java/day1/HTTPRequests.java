@@ -10,6 +10,7 @@ import java.util.HashMap;
 public class HTTPRequests {
 
 	int id = 0;
+	
 	@Test(priority = 1)
 	void getUsers() {
 		        given()
