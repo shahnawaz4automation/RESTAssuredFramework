@@ -50,6 +50,7 @@ public class HTTPRequests {
 		data.put("name", "sam");
 		data.put("job", "trainer");
 		
+		
 		given()
 		     .contentType("application/json")
 		     .header("x-api-key", "reqres-free-v1")
