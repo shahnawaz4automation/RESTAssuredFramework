@@ -1,11 +1,16 @@
 package day2;
 
 import org.json.JSONObject;
+import org.json.JSONTokener;
 import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.HashMap;
 
 public class DifferentWaysToCreatePostRequestBody {
@@ -75,7 +80,7 @@ public class DifferentWaysToCreatePostRequestBody {
 	}
 	
 	//3) Post request body creation using POJO class
-	@Test(priority = 1)
+	//@Test(priority = 1)
 	void testPostUsingPOJOClass() {
 		
 		Pojo_PostRequest data = new Pojo_PostRequest();
@@ -94,6 +99,27 @@ public class DifferentWaysToCreatePostRequestBody {
 		
 	}
 	
+	//4) Post request body creation using External JSON File
+		@Test(priority = 1)
+		void testPostUsingExternalJsonFile() throws FileNotFoundException {
+			
+			File f = new File("./src/test/resources/body.json");
+			
+			FileReader fr = new FileReader(f);
+			
+			JSONTokener jt = new JSONTokener(fr);
+			
+			JSONObject data = new JSONObject(jt);
+			
+			given()
+		         .contentType("application/json")
+		         .body(data)
+		    .when()
+		         .post("http://localhost:3000/students")
+		         .jsonPath().getString("id");
+			
+		}
+		
 	// deleting student record
 	@Test(priority = 2)
 	void testDelete() {

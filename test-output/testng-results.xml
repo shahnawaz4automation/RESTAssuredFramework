@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-10T21:18:57 IST" name="Default suite" finished-at="2025-08-10T21:19:01 IST" duration-ms="4490">
+  <suite started-at="2025-08-10T21:36:58 IST" name="Default suite" finished-at="2025-08-10T21:37:03 IST" duration-ms="5018">
     <groups>
     </groups>
-    <test started-at="2025-08-10T21:18:57 IST" name="Default test" finished-at="2025-08-10T21:19:01 IST" duration-ms="4490">
+    <test started-at="2025-08-10T21:36:58 IST" name="Default test" finished-at="2025-08-10T21:37:03 IST" duration-ms="5018">
       <class name="day2.DifferentWaysToCreatePostRequestBody">
-        <test-method signature="testPostUsingPOJOClass()[pri:1, instance:day2.DifferentWaysToCreatePostRequestBody@689604d9]" started-at="2025-08-10T21:18:57 IST" name="testPostUsingPOJOClass" finished-at="2025-08-10T21:19:01 IST" duration-ms="4282" status="PASS">
+        <test-method signature="testPostUsingExternalJsonFile()[pri:1, instance:day2.DifferentWaysToCreatePostRequestBody@18078bef]" started-at="2025-08-10T21:36:58 IST" name="testPostUsingExternalJsonFile" finished-at="2025-08-10T21:37:03 IST" duration-ms="4782" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUsingPOJOClass -->
-        <test-method signature="testDelete()[pri:2, instance:day2.DifferentWaysToCreatePostRequestBody@689604d9]" started-at="2025-08-10T21:19:01 IST" name="testDelete" finished-at="2025-08-10T21:19:01 IST" duration-ms="113" status="PASS">
+        </test-method> <!-- testPostUsingExternalJsonFile -->
+        <test-method signature="testDelete()[pri:2, instance:day2.DifferentWaysToCreatePostRequestBody@18078bef]" started-at="2025-08-10T21:37:03 IST" name="testDelete" finished-at="2025-08-10T21:37:03 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->

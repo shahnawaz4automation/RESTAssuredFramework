@@ -5,7 +5,7 @@
     <classes>
       <class name="day2.DifferentWaysToCreatePostRequestBody">
         <methods>
-          <include name="testPostUsingJsonLibrary"/>
+          <include name="testPostUsingExternalJsonFile"/>
         </methods>
       </class> <!-- day2.DifferentWaysToCreatePostRequestBody -->
     </classes>
