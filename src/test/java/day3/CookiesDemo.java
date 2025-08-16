@@ -25,8 +25,8 @@ public class CookiesDemo {
 	void getCookiesInfo() {
 		Response res = given()
 				
-		.when()
-		     .get("https://www.google.com/");
+		               .when()
+		                    .get("https://www.google.com/");
 		
 		/*String cookie_value = res.getCookie("AEC");
 		System.out.println("Value for cookie is: " + cookie_value);*/
