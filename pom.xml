@@ -37,6 +37,7 @@
 			<scope>test</scope>
 		</dependency><!--
 		https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
+		<!-- required for OAuth 1 and OAuth 2 Authentications-->
 		<dependency>
 			<groupId>com.github.scribejava</groupId>
 			<artifactId>scribejava-apis</artifactId>
